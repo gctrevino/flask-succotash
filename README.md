@@ -52,3 +52,12 @@ docker run -it -p 5000:5000 --entrypoint /bin/bash --rm flask-app
 - [ ] ...
 ### Template
 - [ ] Add a UI for testing
+
+## Tools
+* PyCharm
+* VSCode
+* GitHub
+
+## OS
+* Windows 10
+* Ubuntu 18.04 (VM)
