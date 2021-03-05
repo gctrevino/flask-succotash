@@ -6,7 +6,7 @@
 FROM python:3
 
 # set the maintaner label
-LABEL MAINTANER Gilberto Treviño "trevigno@gmail.com"
+LABEL MAINTAINER Gilberto Treviño "trevigno@gmail.com"
 
 # set the working directory
 WORKDIR /app
