@@ -28,14 +28,14 @@ python3 tests.py
 ## ToDo
 ---
 ### Tests
-* [x] Add NaN tests
-* [x] Add garbage tests
-* [] Add bigger datasets and see the app crumble
-* [] ...
+- [x] Add NaN tests
+- [x] Add garbage tests
+- [ ] Add bigger datasets and see the app crumble
+- [ ] ...
 ### App
-* [x] Handle error when something other than numbers are provided
-* [x] Handle something other than json
-* [] Improve sorting method
-* [] ...
+- [x] Handle error when something other than numbers are provided
+- [x] Handle something other than json
+- [ ] Improve sorting method
+- [ ] ...
 ### Template
-* [] Add a UI for testing
+- [ ] Add a UI for testing
