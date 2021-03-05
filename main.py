@@ -2,18 +2,15 @@ from flask import Flask,  json, request
 
 app = Flask(__name__)
 
+
 '''
-@app.route("/")
+@app.route("/", methods=['GET')
 def home():
     return render_template("home.html")
-    
-# @app.route('/', methods=['PUT'])
-# @app.route('/', methods=['POST'])
-# @app.route('/', methods=['DELETE'])
 '''
 
 
-@app.route('/', methods=['GET', 'POST', 'PUT'])
+@app.route('/', methods=['GET', 'DELETE', 'POST', 'PUT'])
 def index():
     res = {}
     try:
