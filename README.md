@@ -1,5 +1,4 @@
-# flask-succotash
-Simple Flask app
+# flask-succotash - This is a Simple Flask app
 
 ## Requirements
 1. Build a simple Flask application that accepts a JSON list of objects (developer's choice as to what the data would be), sorts it, and returns the results.
