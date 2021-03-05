@@ -34,7 +34,6 @@ python3 tests.py
 ```
 
 ## ToDo
----
 ### App
 - [x] Handle error when something other than numbers are provided
 - [x] Handle something other than json
