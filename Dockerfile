@@ -24,7 +24,7 @@ RUN apt-get clean
 RUN apt-get -y autoremove
 RUN rm -rf /var/lib/apt/lists/*
 
-#Expose the required port
+# expose the required port
 EXPOSE 5000
 
 # set the entrypoint
