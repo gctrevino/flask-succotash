@@ -1,7 +1,4 @@
 
-# docker build -t flask-app:latest .
-# docker run -it --rm matlab-cli:R2019b -r "disp('hello world'); exit" -user a900561
-
 # https://github.com/gctrevino/flask-succotash
 
 
