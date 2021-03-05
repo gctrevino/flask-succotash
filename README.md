@@ -11,7 +11,7 @@
 *Disclaimer: The following has been tested on an Ubuntu 18.04 machine*
 
 ## How to generate container
-To generate the flask-app container run
+To generate the flask-app container run:
 ```bash
 docker build -t flask-app:latest .
 ```
@@ -28,9 +28,15 @@ docker run -d -p 5000:5000 --rm flask-app
 ```
 
 ## How to run the tests
-To run the small test set included with this project
+To run the small test set included with this project:
 ```bash
 python3 tests.py
+```
+
+## How to enter the container
+I don't see why, but if you want to get into the container, run the following:
+```bash
+docker run -it -p 5000:5000 --entrypoint /bin/bash --rm flask-app
 ```
 
 ## ToDo
