@@ -1,5 +1,14 @@
 # flask-succotash
-Simple Flask app \
+Simple Flask app
+
+## Requirements
+---
+1. Build a simple Flask application that accepts a JSON list of objects (developer's choice as to what the data would be), sorts it, and returns the results.
+
+2. Put the Flask application into a Docker container and expose whatever port number to the host.
+
+3. Provide the Dockerfile, source code, and a Makefile or other script that we could use to build the Docker container on our computers and try it out.
+
 *Disclaimer: The following has been tested on an Ubuntu 18.04 machine*
 
 ## How to generate container
